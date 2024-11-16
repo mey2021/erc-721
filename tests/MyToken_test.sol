@@ -10,7 +10,7 @@ contract MyTokenTest {
     function beforeAll () public {
         s = new MyToken();
     }
-
+//test
     function testTokenNameAndSymbol () public {
         Assert.equal(s.name(), "MyToken", "token name did not match");
         Assert.equal(s.symbol(), "MTK", "token symbol did not match");
