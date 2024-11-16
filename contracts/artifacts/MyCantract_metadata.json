@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -94,24 +94,24 @@
 		"compilationTarget": {
 			"contracts/MyCantract.sol": "MyCantract"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"contracts/MyCantract.sol": {
-			"keccak256": "0x69dc00b56ac2fa566c1883c5a8e5982a88599c9ab6e9a98324a60db01c6ca10f",
+			"keccak256": "0xba9618086958ee376dc303e99a3955f9d611a3f9109a4ecec7a4f06e339e3dbf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e1618a4a9f10da9795f90e5f71c10a2af3db268f235bc3343700da8a901f33a5",
-				"dweb:/ipfs/QmQJ3U7DpXBCzyVnhPajKftwb5DsAhDvpo28QyiXTFYsye"
+				"bzz-raw://b8ae02cc29ee155bf1d00922e1d50e3a594f9f30bbea4462b0e40fa5a3c44e42",
+				"dweb:/ipfs/QmT72KU1WWDv4mBSXqqS7tciRPrDC1nfEAu3x4ksTjZNeP"
 			]
 		}
 	},
