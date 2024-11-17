@@ -28,4 +28,6 @@ contract MyToken is ERC721 {
         _safeMint(msg.sender, tokenId);
         tokenId = tokenId + 1;
     }
+    
+
 }
