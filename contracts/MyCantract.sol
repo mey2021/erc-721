@@ -14,7 +14,7 @@ contract MyCantract {
 
     function getData()
         public
-        view
+        view 
         returns (
             string memory _name,
             uint256 _age,
