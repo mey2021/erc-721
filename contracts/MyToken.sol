@@ -29,7 +29,5 @@ contract MyToken is ERC721 {
         tokenId = tokenId + 1;
     }
     
-    function getData() public{
-     
-    }
+
 }
