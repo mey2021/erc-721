@@ -28,4 +28,10 @@ contract MyToken is ERC721 {
         _safeMint(msg.sender, tokenId);
         tokenId = tokenId + 1;
     }
+    
+    function getData() public{
+        require(tokenId < maxSupply, "All tokens have been minted");
+        _safeMint(msg.sender, tokenId);
+        tokenId = tokenId + 1;
+    }
 }
