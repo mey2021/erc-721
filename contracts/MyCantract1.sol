@@ -10,19 +10,25 @@ contract MyCantract2 {
     mapping(uint256 => Person) public people;
     uint256 public peopleLen = 0;
     address owner;
+    uint256 deployTime;
 
     constructor() {
         owner = msg.sender;
     }
 
+    modifier onlyAfterOneMin() {
+        require(deployTime + 60 == block.timestamp, "cantract is not open!");
+        _;
+    }
     modifier onlyOwner() {
-        require(msg.sender == owner, "yuo are not owner of this cantract!!");
+        require(msg.sender == owner, "you are not owner of this cantract!");
         _;
     }
 
     function addPerson(string memory _name, uint256 _age)
         public
         onlyOwner
+        onlyAfterOneMin
         returns (uint256)
     {
         people[peopleLen] = Person(_name, _age);
