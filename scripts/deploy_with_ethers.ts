@@ -7,4 +7,4 @@ import { deploy } from './ethers-lib'
   } catch (e) {
     console.log(e.message)
   }
-})()
+})()  
