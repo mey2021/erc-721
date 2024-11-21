@@ -9,7 +9,7 @@ contract MyToken is ERC721 {
 
     uint256 public tokenId;
     uint256 public maxSupply = 1000;
-
+    // how can we upload asset in someware an load url here
     function tokenURI(uint256) public pure override returns (string memory) {
         string memory json = Base64.encode(
             bytes(
