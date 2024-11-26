@@ -16,7 +16,7 @@ contract MyCantract {
         public
         view 
         returns (
-            string memory _name,
+            string memory _name, 
             uint256 _age,
             bool _married)
     {
