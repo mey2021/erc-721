@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greeting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_greeting",
+						"type": "string"
+					}
+				],
+				"name": "setGreeting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ink.sol": "InkContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ink.sol": {
+			"keccak256": "0xa2d3868f1a95f175a1cb6daacb004b91d3650f16873ea5b4c2fee394febc8eb2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://62a7969d4f72ebc9c75be770cc4dd023058e450d3d6e4dcb9944ab05d0bbdf2d",
+				"dweb:/ipfs/QmZpZTWmdJb45v4tersnmi8rq5wUhXbk6WWQ353Lhc3WLy"
+			]
+		}
+	},
+	"version": 1
+}
