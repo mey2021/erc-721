@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Base64.sol";
 
 contract MyToken is ERC721 {
-    constructor() ERC721("Mey2021 NFT Collection2", "MEY2") {}
+    constructor() ERC721("Mey2021 NFT Collection3", "MEY3") {}
 
     uint256 public tokenId;
     uint256 public maxSupply = 1000;
@@ -15,11 +15,12 @@ contract MyToken is ERC721 {
             bytes(
                 string(
                     abi.encodePacked(
-                        '{"name": "third", "": "", "image": "https://i.ibb.co/DwXD77F/4.jpg"}'
+                        '{"name": "fourth ", "": "", "image": "https://i.ibb.co/1Xpq4N6/1.png"}'
                     )
                 )
             )
         );
+        //"https://i.ibb.co/DwXD77F/4.jpg"
        // "https://i.ibb.co/pj7gBF3/7742218.jpg"
         return string(abi.encodePacked("data:application/json;base64,", json));
     }
