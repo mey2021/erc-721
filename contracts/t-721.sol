@@ -20,6 +20,8 @@ contract MyToken is ERC721 {
                 )
             )
         );
+          //"https://i.ibb.co/DwXD77F/4.jpg"
+       // "https://i.ibb.co/pj7gBF3/7742218.jpg"
         //"https://i.ibb.co/DwXD77F/4.jpg"
        // "https://i.ibb.co/pj7gBF3/7742218.jpg"
         return string(abi.encodePacked("data:application/json;base64,", json));
