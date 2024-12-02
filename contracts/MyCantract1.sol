@@ -17,7 +17,7 @@ contract MyCantract2 {
     }
 
     modifier onlyAfterOneMin() {
-        require(deployTime + 60 == block.timestamp, "cantract is not open!");
+        require(deployTime + 60 == block.timestamp, "cantract is not open yet!");
         _;
     }
     modifier onlyOwner() {
