@@ -414,11 +414,11 @@
 			]
 		},
 		"simple-token/simple-token.sol": {
-			"keccak256": "0x2c6c431911f479d017a69e2d01cab0c6ae930e246ed33db40a2940a35006dc09",
+			"keccak256": "0x050075eb4604d8a269c6ddd7356a6ab75ef53bb30826245c8a3f35f7ea4ee23c",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://77d9ab54ff9dcafdbc33f31def4fa31e0e3ba972e85e501261a8e5ae926b1703",
-				"dweb:/ipfs/QmYck78tGgQdee1CcdY7P6tFnJEks3cxZXts9dM1KzBxrx"
+				"bzz-raw://32c40ac6c7fdb7712240f144f8e930f43335eb55008ada748fc1cd66e19baba0",
+				"dweb:/ipfs/QmRBa4CcGY8VQZrKRu2r1naaDyBa8zXSkiBgRsLc3ZYUrA"
 			]
 		}
 	},
