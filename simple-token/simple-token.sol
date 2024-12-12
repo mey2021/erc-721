@@ -32,7 +32,7 @@ import "simple-token/@openzeppelin/contracts/token/ERC20/ERC20.sol";
  *
  *  - Premint your total supply.
  *  - No minting function. This allows users to comfortably know the future supply of the token.
- *  - test
+ *  - 
  */
 
 contract FixedToken is ERC20 {
