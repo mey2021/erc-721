@@ -303,7 +303,7 @@
 			"custom:default-precision": "18",
 			"custom:simple-description": "Simple Token. A fixed supply is minted on deployment, and new tokens can never be created.",
 			"custom:version": "1.0.7",
-			"details": "ERC20 token with the following features:  - Premint your total supply.  - No minting function. This allows users to comfortably know the future supply of the token.",
+			"details": "ERC20 token with the following features:  - Premint your total supply.  - No minting function. This allows users to comfortably know the future supply of the token.  - ",
 			"events": {
 				"Approval(address,address,uint256)": {
 					"details": "Emitted when the allowance of a `spender` for an `owner` is set by a call to {approve}. `value` is the new allowance."
@@ -414,11 +414,11 @@
 			]
 		},
 		"simple-token/simple-token.sol": {
-			"keccak256": "0x050075eb4604d8a269c6ddd7356a6ab75ef53bb30826245c8a3f35f7ea4ee23c",
+			"keccak256": "0xa99049efade9a6737904a9e9e16ec66d1230e42d8f8c1d2d889c022972b18c08",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://32c40ac6c7fdb7712240f144f8e930f43335eb55008ada748fc1cd66e19baba0",
-				"dweb:/ipfs/QmRBa4CcGY8VQZrKRu2r1naaDyBa8zXSkiBgRsLc3ZYUrA"
+				"bzz-raw://7f13058458ab5bd50d241bbd9c01446e060f666262e565ffee4fbc329b392635",
+				"dweb:/ipfs/QmSuN9JrBD5KyzKLemMb7hdk4u9rGSNGXuXREtoBpT4YB9"
 			]
 		}
 	},
