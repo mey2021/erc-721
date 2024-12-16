@@ -39,7 +39,7 @@ contract FixedToken is ERC20 {
     /**
      * @param name Token Name
      * @param symbol Token Symbol
-     * @param totalSupply Token Supply
+     * @param totalSupply Token Supply moboo jambo
      */
     constructor(
         string memory name,
