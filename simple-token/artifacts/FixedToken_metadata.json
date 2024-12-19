@@ -327,7 +327,7 @@
 					"params": {
 						"name": "Token Name",
 						"symbol": "Token Symbol",
-						"totalSupply": "Token Supply"
+						"totalSupply": "Token Supply "
 					}
 				},
 				"decimals()": {
@@ -414,11 +414,11 @@
 			]
 		},
 		"simple-token/simple-token.sol": {
-			"keccak256": "0xa99049efade9a6737904a9e9e16ec66d1230e42d8f8c1d2d889c022972b18c08",
+			"keccak256": "0xd1884045cbbdb04f60970593480304a68267db1e93c54f5d513438fa1f1b3e6b",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://7f13058458ab5bd50d241bbd9c01446e060f666262e565ffee4fbc329b392635",
-				"dweb:/ipfs/QmSuN9JrBD5KyzKLemMb7hdk4u9rGSNGXuXREtoBpT4YB9"
+				"bzz-raw://af01656e4d64d2ccc8719eeb865c0ca90ff048f9ebf67c62e50abe712ca809f8",
+				"dweb:/ipfs/QmaJqQYristaD6UZbuEuGBpLPqv4qucQfzgwQ4xMXGw3Df"
 			]
 		}
 	},
