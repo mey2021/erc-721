@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HelloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HelloWorld.sol": {
+			"keccak256": "0xb2075893a9be540756cd9b3b0c021abc9145f613b069325969b793afb8243359",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a0d461bbc432091a3a3627f871cc6aefe30974678d9198170ff286058c8fb5c1",
+				"dweb:/ipfs/QmSCtMuzaDncZKBwD9GxBNWMVunU1LtS6TNBWctw6rKE7w"
+			]
+		}
+	},
+	"version": 1
+}
