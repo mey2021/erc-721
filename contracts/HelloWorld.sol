@@ -5,6 +5,6 @@ contract HelloWorld {
     string public message;
 
     constructor() {
-        message = "Hello, World!";
+        message = "Hello, World!  yuiyiyuyuiyu";
     }
 }
