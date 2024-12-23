@@ -607,7 +607,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyToken.sol": "MyToken"
+			"contracts/t-721.sol": "MyToken"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -741,12 +741,12 @@
 				"dweb:/ipfs/QmVUSvooZKEdEdap619tcJjTLcAuH6QBdZqAzWwnAXZAWJ"
 			]
 		},
-		"contracts/MyToken.sol": {
-			"keccak256": "0x018dba3f74fd9b3ba6fb066a5b3965b7ecb4d8218757a67b5fb4b208ec8cfdc7",
+		"contracts/t-721.sol": {
+			"keccak256": "0x1574f86b22c83a40ecd1dfb632a64bba717a5f3a08ff05bb8815250338b4445e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://467f93cdd79659ca49e9628ca9d81e22cd951fa1f16e10c648d38efd795f0f05",
-				"dweb:/ipfs/QmQL6W5KfVobpVdXuRPNd7m5RU14RJFTXaHyoqVwZtfdDP"
+				"bzz-raw://795e25fa932932f115f7f5a5b1f12a2368b9de1aaf449fcceef81eee8e4a1052",
+				"dweb:/ipfs/QmfAQHbcJYPhrH51YfVG1SvQk4jDHmpDj7oxn93N3YevUm"
 			]
 		}
 	},
